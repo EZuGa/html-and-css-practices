@@ -1,0 +1,12 @@
+body{
+    background-color: darkgreen;
+}
+#mainNavigation{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+h1{
+    text-align: center;
+}
