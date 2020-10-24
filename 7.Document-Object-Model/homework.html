@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main {
+        margin: auto;
+        width: fit-content;
+    }
+
+    section {
+        width: 348px;
+        border: 1px solid gray;
+        /* padding: 20px; */
+        position: relative;
+        display: inline-block;
+    }
+
+    .first-part {
+        padding: 20px;
+        border-bottom: 1px solid gray;
+    }
+
+    .second-part {
+        margin: 20px
+    }
+
+
+    .first-part :not(:nth-child(4))::before {
+        content: url("assets/document.png");
+        margin-right: 10px;
+    }
+
+    figure img,
+    .icons-part img {
+        width: 20px;
+        margin-right: 20px;
+    }
+
+    figure {
+        position: absolute;
+        display: flex;
+        margin: 0px;
+        right: 30px;
+    }
+
+    .icons-part {
+        display: flex;
+    }
+
+    .second-part>img {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    section:not(:last-of-type){
+        margin-right: 20px;
+    }
+
+</style>
+<body>
+    <main>
+    <section>
+        <div class="first-part">
+            <p>2016 Conference Presentation</p>
+            <p>New Contoso Collaboration for Conference Pre...</p>
+            <p>Spec Sheet dor design </p>
+            <p>+3 more</p>
+        </div>
+        
+        
+        
+        <div class="second-part">
+            <h5>Marketing Documents</h5>
+            <h4>6 files were uploaded</h4>
+            <img src="assets/img-2.png" alt="G.E">
+
+            <div class="icons-part">
+                <div>
+                <img src="assets/icon-1.png" alt="">
+                <img src="assets/icon-2.png" alt="">
+                <img src="assets/icon-3.png" alt="">
+                </div>
+                <figure>
+                    <img src="assets/icon-4.png">
+                    <figcaption>432</figcaption>
+                </figure>
+            </div>
+            
+
+        </div>
+    </section>
+    <section>
+        <div class="first-part">
+            <p>2016 Conference Presentation</p>
+            <p>New Contoso Collaboration for Conference Pre...</p>
+            <p>Spec Sheet dor design </p>
+            <p>+3 more</p>
+        </div>
+        
+        <div class="second-part">
+            <h5>Marketing Documents</h5>
+            <h4>6 files were uploaded</h4>
+            <img src="assets/img-2.png" alt="G.E">
+
+            <div class="icons-part">
+                <div>
+                <img src="assets/icon-1.png" alt="">
+                <img src="assets/icon-2.png" alt="">
+                <img src="assets/icon-3.png" alt="">
+                </div>
+                <figure>
+                    <img src="assets/icon-4.png">
+                    <figcaption>432</figcaption>
+                </figure>
+            </div>
+            
+
+        </div>
+    </section>
+    <section>
+        <div class="first-part">
+            <p>2016 Conference Presentation</p>
+            <p>New Contoso Collaboration for Conference Pre...</p>
+            <p>Spec Sheet dor design </p>
+            <p>+3 more</p>
+        </div>
+        
+        <div class="second-part">
+            <h5>Marketing Documents</h5>
+            <h4>6 files were uploaded</h4>
+            <img src="assets/img-2.png" alt="G.E">
+
+            <div class="icons-part">
+                <div>
+                <img src="assets/icon-1.png" alt="">
+                <img src="assets/icon-2.png" alt="">
+                <img src="assets/icon-3.png" alt="">
+                </div>
+                <figure>
+                    <img src="assets/icon-4.png">
+                    <figcaption>432</figcaption>
+                </figure>
+            </div>
+            
+
+        </div>
+    </section>
+    <section>
+        <div class="first-part">
+            <p>2016 Conference Presentation</p>
+            <p>New Contoso Collaboration for Conference Pre...</p>
+            <p>Spec Sheet dor design </p>
+            <p>+3 more</p>
+        </div>
+        
+        <div class="second-part">
+            <h5>Marketing Documents</h5>
+            <h4>6 files were uploaded</h4>
+            <img src="assets/img-2.png" alt="G.E">
+
+            <div class="icons-part">
+                <div>
+                <img src="assets/icon-1.png" alt="">
+                <img src="assets/icon-2.png" alt="">
+                <img src="assets/icon-3.png" alt="">
+                </div>
+                <figure>
+                    <img src="assets/icon-4.png">
+                    <figcaption>432</figcaption>
+                </figure>
+            </div>
+            
+
+        </div>
+    </section>
+</main>
+</body>
+</html>

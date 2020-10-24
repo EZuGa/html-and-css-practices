@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    html{
+        height: 100%;
+    }
+    body{
+        background-image: url("https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100%;
+        color:white
+    }
+    header h1{
+        display: inline-block;
+        font-size: 6em;
+        margin-bottom: 0px;
+    }
+    header h1:first-of-type{
+        background-color: white;
+        color: brown;
+        padding-left: 40px;
+    }
+    header h2{
+  
+        width: 350px;
+        padding-left: 60px;
+    }
+    header{
+        display: inline-block;
+        width: auto;
+        position: relative;
+        top: 20%;
+        left: 5%;
+    }
+
+    #previous, #next{
+        display: inline-block;
+        text-align: center;
+        position: absolute;
+        background-color: white;
+        color: black;
+        font-size: 3.5em;
+        font-weight: 900;
+        padding: 0px 15px;
+        border: none;
+    }
+    #previous{
+        top: 500px;
+        left: 20px;
+    }
+
+    #next{
+        top: 500px;
+        right: 20px;
+    }
+    #sport{
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        font-size: 3em;
+        padding: 10px;
+        transform: translate(-50%);
+        color: white;
+        background-color: orange;
+        border: none;
+    }
+    
+ 
+</style>
+<body>
+    <header>
+    <h1>He</h1><h1>ader</h1>
+        <h2>Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+    </header>
+
+    <main>
+        <button id="previous"><</button>
+        <button id="next">></button>
+    </main>
+    <footer>
+        <button id="sport">Orange</button>
+    </footer>
+    
+</body>
+</html>
