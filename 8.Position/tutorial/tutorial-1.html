@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    main{
+        background-color: cornflowerblue;
+        height: 600px;
+        width: 600px;
+        position: relative;
+        top: 30px;
+        left: 30px;
+    }
+    div:first-child, div:nth-child(2),.right-bottom,#left-bottom{
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        position: absolute;
+    }
+
+    div:first-child{
+        left: 30px;
+        top: 30px;
+    }
+    div:nth-child(2){
+        right: 30px;
+        top: 30px;
+        }
+    .right-bottom{
+        right: 30px;
+        bottom: 30px;
+    }
+    #left-bottom{
+        left: 30px;
+        bottom: 30px;
+    }
+
+        
+
+</style>
+<body>
+
+    <main>
+        <div></div>
+        <div id="rato"></div>
+        <div class="right-bottom"></div>
+        <div id="left-bottom"></div>
+    </main>
+    
+</body>
+</html>
