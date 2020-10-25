@@ -13,32 +13,36 @@
     }
 
     section {
-        width: 348px;
+        width: 390;
         border: 1px solid gray;
         /* padding: 20px; */
         position: relative;
         display: inline-block;
+        margin-bottom: 10px;
     }
 
     .first-part {
-        padding: 20px;
+        padding: 5px 25px;
+        padding: 5px 30px 5px 25px;
         border-bottom: 1px solid gray;
+        font-size: 21px;
     }
 
     .second-part {
-        margin: 20px
+        padding: 20px 0px 0px 20px;
+        
     }
 
 
     .first-part :not(:nth-child(4))::before {
         content: url("assets/document.png");
-        margin-right: 10px;
+        margin-right: 15px;
     }
 
-    figure img,
+    
     .icons-part img {
-        width: 20px;
-        margin-right: 20px;
+        width: 23px;
+        margin-right: 7px;
     }
 
     figure {
@@ -47,18 +51,42 @@
         margin: 0px;
         right: 30px;
     }
+    figcaption{
+        font-size: 24px;
+    }
+
+    
 
     .icons-part {
         display: flex;
+        background-color: red;
+        padding-left: 10px;
     }
 
     .second-part>img {
-        width: 100%;
-        margin-bottom: 10px;
+        height:  51px;
+        margin-bottom: 30px;
     }
 
     section:not(:last-of-type){
         margin-right: 20px;
+    }
+    .first-part p:not(:last-of-type){
+        margin-bottom: -8px;
+    }
+    .first-part p:last-of-type{
+        margin-bottom: 9px;
+    }
+    h5{
+        margin-top: -2px;
+        margin-bottom: 0px;
+        font-weight: 100;
+        font-size: 21px;
+    }
+    h4{
+        font-weight: 100;
+        font-size: 29px;
+        margin-top: 20px;
     }
 
 </style>
@@ -131,7 +159,7 @@
         </div>
         
         <div class="second-part">
-            <h5>Marketing Documents</h5>
+            <p>Marketing Documents</p>
             <h4>6 files were uploaded</h4>
             <img src="assets/img-2.png" alt="G.E">
 
