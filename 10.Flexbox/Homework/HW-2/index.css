@@ -1,0 +1,65 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#wholeContent{
+    margin-top: 12px;
+    max-width: 940px;
+    height: 1060px;
+}
+#wholeContent div div{
+    background-color: #E1E1E1;
+}
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+
+#firstLine div{
+    width: 23.4%;
+}
+#secondLine{
+    height: 100px;
+}
+
+#secondLine div{
+    width: 10.63%;
+}
+
+#thirdLine :first-child{
+    width: 74.4%;
+}
+#thirdLine :last-child{
+    width: 23.4%;
+}
+
+#forthLine :last-child{
+    width: 74.4%;
+}
+#forthLine :first-child{
+    width: 23.4%;
+}
+
+#fivthLine :last-child{
+    width: 48.9%;
+}
+#fivthLine :first-child{
+    width: 48.9%;
+}
+
+
+
+
+#thirdLine, #forthLine, #fivthLine , #firstLine{
+    height: 220px;
+}
