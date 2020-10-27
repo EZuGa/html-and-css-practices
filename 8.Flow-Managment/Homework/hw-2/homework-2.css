@@ -1,0 +1,65 @@
+body, p{
+    margin: 0;
+    padding: 0;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+#firstRow{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+
+
+body :last-child{
+    /* aq important mgoni kai iqneba */
+    margin-right: 0; 
+}
+
+#firstRow div{
+    float: left;
+    width: 220px;
+    height: 220px;
+    background-color: gray;
+    margin-right: 20px;
+}
+
+.clearfix::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+#secondRow, .third-forth-Row{
+    margin-bottom: 20px;
+}
+
+#secondRow div{
+    float: left;
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    background-color: gray;
+}
+/* sxvanairadac sheidzleboda magram naklebi css */
+
+.third-forth-Row div{
+    float: left;
+    width: 700px;
+    height: 220px;
+    background-color: gray;
+    margin-right: 20px;
+}
+.third-forth-Row  .smallOne{
+    width: 220px;
+}
+
+#fivthRow div{
+    float: left;
+    height: 220px;
+    width: 460px;
+    background-color: gray;
+    margin-right: 20px;
+}
