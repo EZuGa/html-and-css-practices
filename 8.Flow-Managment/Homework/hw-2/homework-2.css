@@ -7,24 +7,6 @@ p{
     font-size: 12px;
     font-weight: bold;
 }
-#firstRow{
-    margin-top: 12px;
-    margin-bottom: 20px;
-}
-
-
-body :last-child{
-    /* aq important mgoni kai iqneba */
-    margin-right: 0; 
-}
-
-#firstRow div{
-    float: left;
-    width: 220px;
-    height: 220px;
-    background-color: gray;
-    margin-right: 20px;
-}
 
 .clearfix::after{
     content: '';
@@ -32,24 +14,38 @@ body :last-child{
     display: table;
 }
 
+#firstRow{
+    margin-top: 12px;
+    margin-bottom: 20px;
+}
+body :last-child{
+    /* aq important mgoni kai iqneba */
+    margin-right: 0; 
+}
+
+#firstRow div, #secondRow div,.third-forth-Row div, #fivthRow div{
+    background-color: #E1E1E1;
+    height: 220px;
+    float: left;
+    margin-right: 20px ;
+}
+
+#firstRow div{
+    width: 220px;
+}
+
 #secondRow, .third-forth-Row{
     margin-bottom: 20px;
 }
 
 #secondRow div{
-    float: left;
     width: 100px;
     height: 100px;
-    margin-right: 20px;
-    background-color: gray;
 }
 /* sxvanairadac sheidzleboda magram naklebi css */
 
 .third-forth-Row div{
-    float: left;
     width: 700px;
-    height: 220px;
-    background-color: gray;
     margin-right: 20px;
 }
 .third-forth-Row  .smallOne{
@@ -57,9 +53,5 @@ body :last-child{
 }
 
 #fivthRow div{
-    float: left;
-    height: 220px;
     width: 460px;
-    background-color: gray;
-    margin-right: 20px;
 }
