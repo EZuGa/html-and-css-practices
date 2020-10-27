@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.flex-row{
+    display: flex;
+    justify-content: flex-start;
+}
+.flex-column{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+#mainConent{
+    width: 600px;
+    height: 600px;
+    background-color: cadetblue;
+}
+#firstRow{
+    
+    height: 41.5%;
+    background-color: white;
+    border-bottom: 14px solid black;
+}
+#firstRow :first-child{
+    background-color: red;
+    width: 46%;
+    border-right: 7px solid black;
+}
+#firstRow :last-child{
+    width: 54%;
+    background-color: burlywood;
+}
+#secondRow{
+    height: 24%;
+    background-color: white;
+    border-bottom: 14px solid black;
+}
+#secondRow :first-child{
+    background-color: red;
+    width: 46%;
+    border-right: 7px solid black;
+}
+#secondRow :last-child{
+    width: 54%;
+    background-color: yellowgreen;
+}
+#lastRow {
+    height: 34.5%;
+    background-color: tomato;
+}
+#lastRow>:first-child{
+    background-color: yellow;
+    width: 10%;
+    border-right: 7px solid black;
+}
+#lastRow>:nth-child(2){
+    background-color: green;
+    width: 36%;
+    border-right: 7px solid black;
+}
+#davigale{
+    width: 32%;
+    background-color: grey;
+} 
+#davigale :first-child{
+    height: 87.5%;
+    background-color: blueviolet;
+    border-bottom: 7px solid black;
+    border-right: 7px solid black;;
+}
+#davigale :last-child{
+    height: 12.5%;
+    background-color: blueviolet;
+    border-right:7px solid black;
+}
+#lastRow>:last-child{
+    width: 22%;
+    background-color: blanchedalmond;
+}
