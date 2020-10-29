@@ -1,6 +1,7 @@
 main{
     max-width: 1173.3px;
     height: 1345.75px;
+    margin:auto;
 }
  .flex{
     display: flex;
