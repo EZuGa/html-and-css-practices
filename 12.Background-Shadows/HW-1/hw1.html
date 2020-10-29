@@ -15,13 +15,15 @@
     section{
         height: 100vh;
         width: 100vw;
+        overflow: hidden;
     }
     #foto1{
         position: absolute;
         width: 100%;
         height: 100%;
         background-image: url(Image\ 1.png);
-        background-size: cover;
+        background-size: auto;
+        background-position: 0px -160px;
         background-repeat: no-repeat;
     }
     #gradient1{
@@ -40,17 +42,18 @@
         opacity: 0.15;
     }
     #foto2{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
         position: absolute;
         width: 100%;
         height: 100%;
         z-index: 4;
     }
     img{
+        position: absolute;
         width: 1660px;
         height: 443px;
+        top: 260px;
+        left: 133px;
     }
 
 </style>
