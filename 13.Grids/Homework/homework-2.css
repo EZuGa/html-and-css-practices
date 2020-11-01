@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 940px;
+    height: 1060px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(9,1fr);
+    grid-gap: 20px;
+}
+div{
+    background-color: gray;
+}
+.erti{
+    grid-row: span 2;
+    grid-column: span 2;
+    
+}
+.ori{
+    grid-row: span 2;
+    grid-column: span 6;
+}
+.sami{
+    grid-row: span 2;
+    grid-column: span 4;
+}

@@ -18,7 +18,7 @@ div:nth-of-type(5){
     background-color: yellow;
 }
 div:nth-of-type(7){
-    background-color: gray;
+    background-color: blue;
 }
 
 #redOne, div:nth-of-type(3){
