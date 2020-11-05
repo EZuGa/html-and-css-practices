@@ -18,7 +18,6 @@ main .main-content .box-wrap {
   justify-content: space-between;
   align-content: space-between;
   min-height: 510px;
-  background-color: sienna;
 }
 main .main-content h1 {
   font-weight: 300;
@@ -37,26 +36,29 @@ main .main-content .box {
 main .main-content .box:nth-child(2) .box-icon {
   background-color: #97E411;
   border-color: #7BC200;
+  color: #7BC200;
 }
 main .main-content .box:nth-child(3) .box-icon {
-  background-color: #97E411;
-  border-color: #7BC200;
-}
-main .main-content .box:nth-child(4) .box-icon {
   background-color: #FD7761;
   border-color: #F55C43;
+  color: #F55C43;
 }
-main .main-content .box:nth-child(5) .box-icon {
+main .main-content .box:nth-child(4) .box-icon {
   background-color: #6FD9FC;
   border-color: #47B4F6;
+  color: #47B4F6;
 }
-main .main-content .box:nth-child(6) .box-icon {
+main .main-content .box:nth-child(5) .box-icon {
   background-color: #A39CDC;
   border-color: #8781BD;
+  color: #8781BD;
 }
 main .main-content .box:last-of-type {
   max-width: none;
   width: 100%;
+}
+main .main-content .box:last-of-type .box-text {
+  width: 85%;
 }
 main .main-content .box .krestiki {
   position: absolute;
@@ -71,13 +73,14 @@ main .main-content .box .box-icon {
   width: 65px;
   height: 65px;
   background-color: #FFC12D;
+  color: #F9B718;
   font-size: 20px;
   border-radius: 50%;
-  border: 5px solid #F9B718;
+  border: 7px solid #F9B718;
   margin: 42px 27px 42px 50px;
 }
 main .main-content .box .box-text {
-  width: 70%;
+  width: 60%;
   min-height: 76px;
   display: flex;
   flex-direction: column;
@@ -90,7 +93,6 @@ main .main-content .box .box-text h4 {
 main .main-content .box .box-text p {
   font-size: 14px;
   line-height: 1.6;
-  width: 90%;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -7,6 +7,7 @@
 @mixin box-image($background-color, $border-color) {
     background-color: $background-color;
     border-color: $border-color;
+    color: $border-color;
 }
 
 main{
@@ -20,7 +21,6 @@ main{
         justify-content: space-between;
         align-content: space-between;
         min-height: 510px;
-        background-color: sienna;
     }
 
     h1{
@@ -43,20 +43,16 @@ main{
     }
     &:nth-child(3){
         .box-icon{
-            @include box-image(#97E411, #7BC200);
-        }
-    }
-    &:nth-child(4){
-        .box-icon{
             @include box-image(#FD7761, #F55C43);
         }
     }
-    &:nth-child(5){
+
+    &:nth-child(4){
         .box-icon{
             @include box-image(#6FD9FC, #47B4F6);
         }
     }
-    &:nth-child(6){
+    &:nth-child(5){
         .box-icon{
             @include box-image(#A39CDC, #8781BD);
         }
@@ -66,6 +62,9 @@ main{
     &:last-of-type{
         max-width: none;
         width: 100%;
+        .box-text{
+            width: 85%;
+        }
     }
 
     .krestiki{
@@ -82,14 +81,15 @@ main{
         width: 65px;
         height: 65px;
         background-color: #FFC12D;
+        color:  #F9B718;
         font-size: 20px;
         border-radius: 50%;
-        border: 5px solid #F9B718;
+        border: 7px solid #F9B718;
         margin: 42px 27px 42px 50px;
 
     }
     .box-text{
-        width: 70%;
+        width: 60%;
          min-height: 76px;
         display: flex;
         flex-direction: column;
@@ -97,12 +97,10 @@ main{
         h4{
             font-weight: 700;
             letter-spacing: 0.3px;
-            // margin-bottom: 15px;
         }
         p{
             font-size: 14px;
             line-height: 1.6;
-            width: 90%;
         }
 
     }
