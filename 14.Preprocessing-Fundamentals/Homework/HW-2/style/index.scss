@@ -1,0 +1,101 @@
+* {
+    font-family: "Lato", sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  @mixin box-style($background-color, $grid-strech:1,){
+    border-radius: 10px;
+    background-color: $background-color;
+    grid-column: span $grid-strech;
+    position: relative;
+  }
+  @mixin box-inside($color:gold, $width:60%){
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+      .box-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 65px;
+        height: 65px;
+        color: $color;
+        font-size: 20px;
+        border-radius: 50%;
+        border: 7px solid $color;
+        margin: 0px 27px 0px 50px;
+      }
+      .krestiki{
+        position: absolute;
+        top: 17px;
+        right: 17px;
+        font-size: 12px;
+
+      }
+      .box-text{
+          width: $width;
+          min-height: 74px;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          p{
+              font-size: 14px;
+            line-height: 1.6;
+            letter-spacing: -0.07px;
+          }
+          h4{
+              font-weight: 700;
+              letter-spacing: 0.3px;
+          }
+      }
+  }
+main{
+    padding-top: 46px;
+.main-wrap{
+    max-width: 1170px;
+    min-height: 570px;
+    margin:auto;
+    h1 {
+        font-weight: 100;
+        font-size: 30px;
+        margin-bottom: 51px;
+        letter-spacing: 0.3px;
+      }
+      .main-grid{
+          display: grid;
+          min-height: 510px;
+          grid-template-columns: repeat(2,1fr);
+          grid-template-rows: repeat(3,1fr);
+          grid-gap: 30px;
+          
+          .box-1{
+            @include box-style(#FFC12D);
+            @include box-inside(#A47503);
+           
+          }
+          .box-2{
+            @include box-style(#A7EC2F);
+            @include box-inside(#7BC200);
+          }
+          .box-3{
+            @include box-style(#FEB1A4);
+            @include box-inside(#F55C43);
+          }
+          .box-4{
+            @extend .box-1;
+            background-color: #85EBFA;
+            .box-icon{
+                border-color: #47B4F6;
+                color: #47B4F6;
+            }
+          }
+          .box-5{
+            @include box-style(#AACDF6,2);
+            @include box-inside(#8781BD,81%);
+
+
+          }
+      }
+}
+}
